@@ -7,10 +7,10 @@ settings:
   debug_print: True
 
 # Splunk connection settings
-# Environment variables (SPLUNK_HOST, SPLUNK_USERNAME, SPLUNK_PASSWORD, SPLUNK_HEC_TOKEN)
-# will override these values if set
+# Set these values in a .env file or as environment variables:
+#   SPLUNK_HOST, SPLUNK_USERNAME, SPLUNK_PASSWORD, SPLUNK_HEC_TOKEN
 splunk:
-  host: attack-data
-  username: admin
-  password: seamlesslabs
-  hec_token: f9d2e13d-63ca-4bf2-8dcb-aa3a9d7dafff
+  host: ""
+  username: ""
+  password: ""
+  hec_token: ""
