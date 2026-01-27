@@ -29,12 +29,16 @@ from datetime import datetime
 from pathlib import Path
 from colorama import Fore, Style, init
 from urllib3 import disable_warnings
+from dotenv import load_dotenv
 
 # Initialize colorama
 init()
 
 # Disable SSL warnings
 disable_warnings()
+
+# Load environment variables from .env file
+load_dotenv()
 
 
 class ColorPrint:
