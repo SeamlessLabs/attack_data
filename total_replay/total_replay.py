@@ -18,9 +18,13 @@ from rich.panel import Panel
 from time import sleep
 import uuid
 from colorama import Fore, Back, Style, init
+from dotenv import load_dotenv
 from utility.color_print import ColorPrint
 
 from utility.utility_helper import UtilityHelper
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Configure logging
 logging.basicConfig(
