@@ -89,7 +89,4 @@ See `test/test_names.txt` for examples.
 
 **Important:** Always create pull requests on the internal fork `SeamlessLabs/attack_data`, not the upstream `splunk/attack_data` repo.
 
-```bash
-# Create PR on internal fork
-gh pr create --repo SeamlessLabs/attack_data --title "PR title" --body "PR body"
-```
+The repo is already configured with `gh repo set-default SeamlessLabs/attack_data`, so `gh pr create` will automatically target the correct repo.
