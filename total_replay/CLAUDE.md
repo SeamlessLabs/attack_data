@@ -84,3 +84,9 @@ File inputs support mixed metadata. The tool uses regex to auto-categorize:
 - Lines starting with `#` are skipped
 
 See `test/test_names.txt` for examples.
+
+## Git Workflow
+
+**Important:** Always create pull requests on the internal fork `SeamlessLabs/attack_data`, not the upstream `splunk/attack_data` repo.
+
+The repo is already configured with `gh repo set-default SeamlessLabs/attack_data`, so `gh pr create` will automatically target the correct repo.
